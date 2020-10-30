@@ -13,3 +13,11 @@ def my_reduce(func, *args):
         args = args[1:]
         arg_num -= 1
     return curr_result
+
+
+def my_sum(*args):
+    curr_sum = 0
+    for arg in args:
+        curr_sum += arg
+    return curr_sum
+
